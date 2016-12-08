@@ -1,0 +1,23 @@
+html,body {margin:0; padding:0}
+.cover_wrap {width:1200px}
+.cover_wrap {zoom:1}
+.cover_wrap:after {clear:both; display:block; content:''}
+.cover_wrap .carousel {  float:left;  width:880px;  height: 435px;  background-color: #fff; position: relative; margin-bottom: 0.5em; overflow:hidden; margin-left:36px;}
+.cover_wrap .carousel .shadow { -moz-box-shadow:0px 16px 26px #888888; -webkit-box-shadow: 0px 16px 26px #888888; box-shadow: 0px 16px 26px #888888}
+.cover_wrap .carousel .slide {width:680px; position: absolute}
+.cover_wrap .carousel .slide img {width:100%; height:100%}
+.cover_wrap .carousel .slide p { position: relative; padding: 0; margin:  0; height:  100%}
+.cover_wrap .carousel .navigate-left { cursor: pointer; position: absolute; top:50%; left: 7px; margin-top:-26px;  z-index:20}
+.cover_wrap .carousel .navigate-right  {cursor: pointer; position: absolute; top: 50%; right: 7px; margin-top:-26px; z-index:20}
+.cover_wrap ul.cover_list {float:left;   width:263px; zoom:1; padding:0; background:#eee}
+.cover_wrap ul.cover_list:after{clear:both; display:block; content:''}
+.cover_wrap ul.cover_list li{list-style:none; color:#8b7770; background:url('../images/coverlist_line.jpg') no-repeat 17px bottom; border-left:1px solid #d4d4d4; border-right:1px solid #d4d4d4; padding:11px 10px 11px 15px; cursor:pointer}
+.cover_wrap ul.cover_list li.first {border-top:1px solid #d4d4d4}
+.cover_wrap ul.cover_list li.last {border-bottom:1px solid #d4d4d4; background:none}
+.cover_wrap ul.cover_list li.active {position:relative; color:#fff; background:#9c9c9c url('../images/cover_arrow.jpg') no-repeat 244px 15px; border:1px solid #898989}
+.cover_wrap .txt_wrap {clear:both; width:660px; margin-left:400px}
+.cover_wrap .txt_wrap .list_box {display:none;opacity:0;filter:alpha(opacity=0);}
+.cover_wrap .txt_wrap .list_box.active {display:block;opacity:1;filter:alpha(opacity=100)}
+.cover_wrap .txt_wrap h2{}
+.cover_wrap .txt_wrap h2 span.bl {color:#7dab46}
+.cover_wrap .txt_wrap p span.txt{}
